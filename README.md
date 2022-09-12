@@ -1,3 +1,3 @@
 # portfolio
- This is fully responsive react wesite. 
+ This is fully responsive  wesite. 
   
