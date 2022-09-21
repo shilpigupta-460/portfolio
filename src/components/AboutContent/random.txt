@@ -1,0 +1,14 @@
+ //import {FaCss3,FaHtml5, FaJs, FaReact, FaNode, FaExpress, Fa } from 'react-icons/fa'
+
+{/* <h1 style={{ 'padding':'2rem', 'margin-left':' 12rem '}}> SKILLS</h1>
+                    <FaNode size={80} style={ { color: '#000', marginRight: '2rem',background:'#85be02 ' } }/>
+                    <FaReact size={80} style={ { color: '#61dafb ', marginRight: '2rem',background:'#fff' } }/>
+                    <FaJs size={80} style={ { color: '#eed81a', marginRight: '2rem' , background:'#000 ', border:'0px'} }/>
+                    <FaHtml5 size={80} style={ { color: '#fff', marginRight: '2rem' , background:'#dc4b25 '} }/>
+                  <FaCss3 size={80} style={ { color: '#fff', marginRight: '2rem' , background:'#244bdd '} }/>
+                    <div className="img-stack top">
+                      <img src={img1} alt="image" className="img" />
+                    </div>
+                     <div className="img-stack bottom">
+                     <img src={img2} alt="image" className="img" />
+                     </div> */}

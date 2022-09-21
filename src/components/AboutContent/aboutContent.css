@@ -1,0 +1,115 @@
+.aboutContainer{
+     /* background-color: rgb(160, 199, 106); */
+      position: relative;
+       width: 90vw;
+       height: calc(100vh - 50px);
+       display: flex;
+       justify-content: center;
+        align-items: center;
+         left: 50%;
+         top:60%;
+         transform:  translate(-50%,-60%);
+          border-radius: 20px;
+ margin-top: 1.7rem;
+ 
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+.inner_container{
+     background-color:  #fdfdfd ;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+      display: grid;
+       grid-template-columns: 1fr 1fr; 
+         padding: 1.5rem; 
+         gap: 1rem;
+
+       
+     
+}
+.inner_container .left{
+ /* background-color: aqua; */
+  overflow-y: hidden;
+  border-right: 2px solid rgb(245, 240, 240);
+}
+.inner_container .right{
+    /* background-color: rgb(179, 222, 87); */
+     /* z-index: -1; */
+      position: absolute;
+      left: 50%;
+      top: 20%;
+      padding: 1rem;
+      width: 50%;
+      height: 59%;
+   }
+   .inner_container .right .img-container{
+    max-width: 90%;
+  display: grid;
+  grid: auto-flow;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+  top: -2rem;
+  /* margin: 2.7rem; */
+       
+   }
+
+@media screen and (max-width: 686px){
+    .aboutcontainer{
+      width: 100vw;
+      height: 100vh;
+       display: grid;
+       grid-template-columns: 1fr;
+     text-align: center;
+      justify-content: center;
+      
+    }
+    .inner_container{
+        width: 100vw;
+      height:100vh; 
+      grid-template-columns: 1fr ; 
+       padding: 1rem;
+        margin-top :0.1rem;
+       
+        
+    }
+    .inner_container .right{
+        left: 20%;
+        top: 75%;
+    
+      
+      
+    }
+    .inner_container .left{
+      
+        left: 20%;
+        top: 75%;
+        border:0;
+        margin-top: 2px;
+         text-align: center;
+    align-items: center;
+    font-size: 8px;
+       
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    
+        
+      
+    }
+    .inner_container .right .img-container{
+         position: absolute;
+         top:50%;
+          width: 100%;
+     
+          grid-template-columns: repeat(2, 1fr);
+          text-align: center;
+          grid-gap: .8rem;
+    }
+
+}
+@media screen and (min-width: 386px){
+  .inner_container .right .img-container{
+    grid-template-columns: repeat(3, 1fr);}
+}

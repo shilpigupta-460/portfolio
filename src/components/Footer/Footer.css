@@ -1,0 +1,45 @@
+.footer {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: rgba(12, 12, 12, 0.8);
+  
+}
+.footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+  /* mange to image of hero */
+  margin-top: 4rem;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.home {
+  display: flex;
+  padding: 1rem;
+  line-height: 20px;
+}
+.phone {
+  display: flex;
+  padding: 1rem;
+  line-height: 20px;
+}
+.mail {
+  display: flex;
+  padding: 1rem;
+  line-height: 20px;
+}
+.mail h4 {
+  margin-left: 1.4rem;
+}
+
+.right {
+  position: absolute;
+  left: 16.2rem;
+  line-height: 20px;
+}

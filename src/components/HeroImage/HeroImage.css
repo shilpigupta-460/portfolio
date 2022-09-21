@@ -1,0 +1,60 @@
+.heroImage {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.intro {
+  background: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  object-fit: cover;
+}
+.heroImage::after {
+  content: "";
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(21, 20, 20, 0.9);
+  opacity: 0.8;
+}
+.hero {
+  display: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hero .content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-weight: 500;
+  color: rgb(245, 245, 7);
+  text-align: center;
+}
+.hero .content h1 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.hero .content p {
+  font-size: 4rem;
+}
+.link a {
+  margin: 1rem 0.3rem;
+}
+@media screen and (max-width: 678px) {
+  .hero .content h1 {
+    font-size: 2rem;
+    top: 0%;
+  }
+  .hero .content p {
+    font-size: 1.4rem;
+  }
+  .btn {
+    font-size: 0.7rem;
+  }
+}

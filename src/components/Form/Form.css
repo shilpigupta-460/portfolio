@@ -1,0 +1,22 @@
+label {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  /* justify-content: center; */
+  padding: 4rem;
+  margin: auto;
+  max-width: 700px;
+}
+form input,
+form textarea {
+  padding: 0.625rem 1.125rem;
+  margin-bottom: 0.7rem;
+  background-color: rgb(63, 61, 61);
+  border-bottom: rgb(63, 61, 61);
+  color: #fff;
+}

@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+body {
+  background: rgb(21, 20, 20);
+}
+h1,
+h4,
+a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+.btn {
+  font-size: 1rem;
+  background: rgb(245, 220, 9);
+  color: black;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  padding: 0.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-light {
+  /* font-size: 1rem; */
+  background: transparent;
+  color: #fff;
+  /* text-transform: uppercase;
+  border: 1px solid #fff;
+  padding: 0.5rem;
+  font-weight: 600;
+  cursor: pointer; */
+}
+.btn:hover {
+  background: grey;
+  color: #fff;
+  transition: 0.3s;
+}
+.heading{
+
+   text-align: center;
+}
